@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu" ;
+}
+header{
+    background-color: #eefa81;
+}
+.headerposition{
+    display: inline-flex;
+    flex-direction: row;
+    align-items:center;
+    width: 100%;
+}
+.blogname{
+    flex:50%;
+    justify-content: center;
+    color: rgb(234, 0, 255);
+}
+.logo{
+    flex: 33%;
+}
+
+footer{   background-color: rgb(63, 152, 190);
+}
+.container{
+    padding: 30px 25PX;
+}
+.footerColumns{
+    display: flex;
+}
+.footerColumns{
+    flex: 50%;
+    margin: 10px;
+}
+.footerColumns h3,p {
+    color: rgb(0, 0, 0);
+}
+small{
+    color: rgb(255, 255, 255);
+}
+.footerColumns a{
+    color: white;
+}
+main{
+    background-color: rgb(91, 228, 222);
+    padding: 10px;
+}
+.post{
+    background-color: rgb(220, 98, 182);
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 20px;
+    display: flex;
+    margin: 20px;
+}
+.post img{
+    margin: 20px;
+}
+#menu1{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index:10;
+}
+#menu ul{
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+}
+#menu1>ul::after{
+    display: block;
+    width: 100%;
+    height: 0px;
+    clear:both;
+    content:"";
+}
+#menu1 ul li{
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+#menu1 ul li a{
+    display: block;
+    padding: 9px 25px 0px 25px;
+    font-size: 14px;
+    line-height: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 36px;
+}
+#menu1 ul li ul{
+    position: absolute;
+    top:36px;
+    left: 0px;
+    display: none;
+    width: 200px;
+    background-color: rgb(70, 66, 208);
+}
+#menu1 ul li:hover ul{
+    display: block;
+}
+#menu1 ul li ul li{
+    float: none;
+    width: 100%;
+    
+}
+#menu1 ul li :hover{
+    background-color: rgb(70, 62, 196);
+    scale:1.1;
+}
+#menu1 ul li ul li a{
+    display: block;
+    text-transform: none;
+    height: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #fff;
+    color: white;
+}
+#menu1 ul li ul li:first-child a{
+    border-top: 0px;
+}
+
+.carousele{
+    margin: 10px;
+
+}
+.carousele div img{
+    width: 100%;
+}
+.carousele div img{
+    width: 20%;
+}
